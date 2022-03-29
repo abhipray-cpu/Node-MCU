@@ -1,0 +1,1 @@
+This is a series of using Node mcu with 8 differrent sensors and then storing the data and displaying using the firebase realtime database
