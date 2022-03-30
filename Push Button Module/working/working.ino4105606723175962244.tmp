@@ -1,0 +1,13 @@
+//this only works for 2.4 Ghz frequency
+const int push_PIN=8;
+void setup() 
+{
+  Serial.begin(115200); 
+  pinMode(push_PIN,INPUT);                                                 
+ }
+void loop()
+{
+ int state=digitalRead(push_PIN);
+ Serial.print("The state of push button is:");
+ 
+  }
